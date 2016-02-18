@@ -1,5 +1,6 @@
 <?php
 echo "Test PHP";
+echo "Test PHP";
 /**
  * Created by PhpStorm.
  * User: bitko
