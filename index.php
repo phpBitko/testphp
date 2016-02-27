@@ -4,6 +4,7 @@ echo "Test PHP";
 echo "Test PHP";
 echo "Hello world!!!";
 echo "qqqqq";
+echo "rrrrr";
 //уккеукеукеу
 //echo '<pre>'; print_r($messages); echo '</pre>';
 /**
