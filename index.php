@@ -2,6 +2,7 @@
 echo "Test PHP";
 echo "Test PHP";
 echo "Test PHP";
+echo "Hello world!!!";
 //echo '<pre>'; print_r($messages); echo '</pre>';
 /**
  * Created by PhpStorm.
