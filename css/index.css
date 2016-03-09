@@ -1,0 +1,37 @@
+body{
+    background: gainsboro;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+h2{
+    margin: 0;
+}
+
+
+#body{
+    width: 1300px;
+    background-color: #cae1ff;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+
+#header{
+    color: rgb(61, 99, 210);
+    text-shadow: 4px -2px 2px #4A4949;
+    font-size: 5em;
+    border-bottom: 3px solid rgba(34, 42, 255, 0.4);
+
+}
+#content{
+    font-size: 2em;
+    color: #737679;
+    text-align: left;
+    margin: 20px;
+}
+
+li{
+    padding-bottom: 15px;
+}
