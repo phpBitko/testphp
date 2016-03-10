@@ -1,24 +1,15 @@
 function startTimer() {
     var my_timer = document.getElementById("my_timer");
-  //  var time = my_timer.innerHTML;
     var now = new Date();
-   // var arr = time.split(":");
-   // console.log(now);
     var future = new Date(2016, 02, 14, 9,0,0);
-
-    var riz = future - now;
-
-
-    var h = Math.floor(riz/3600000);
-    riz = riz - h*3600000;
-    var m = Math.floor(riz/60000);
-    riz = riz - m*60000;
-    var s = Math.floor(riz/1000);
+    var res = future - now;
 
 
-   // console.log(riz + ""+ future);
-
-  // console.log(sh+":"+sm+":"+ss + "::" + future);
+    var h = Math.floor(res/3600000);
+    res = res - h*3600000;
+    var m = Math.floor(res/60000);
+    res = res - m*60000;
+    var s = Math.floor(res/1000);
 
 
     if (s == 0) {
@@ -30,13 +21,13 @@ function startTimer() {
             }
             h--;
             m = 60;
-            if (h < 10) h = "0" + h;
         }
         m--;
-        if (m < 10) m = "0" + m;
         s = 59;
     }
     else s--;
+    if (h < 10) h = "0" + h;
+    if (m < 10) m = "0" + m;
     if (s < 10) s = "0" + s;
     document.getElementById("my_timer").innerHTML = h+":"+m+":"+s;
     setTimeout(startTimer, 1000);

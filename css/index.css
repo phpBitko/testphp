@@ -1,12 +1,57 @@
 body{
     background: gainsboro;
     margin: 0;
-    font-family: Verdana, sans-serif;
+    font-family: Cursive, sans-serif;
 }
 
 h2{
     margin: 0;
 }
+
+ul{
+    margin: 0 0 0 0px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.ul-menu{
+    left: 15px;
+}
+
+#menu ul{
+    padding: 0;
+}
+
+
+#menu{
+    width: 100%;
+    height: 80px;
+    background:#A07965;
+    border-bottom: 3px solid rgb(117, 75, 29);
+}
+
+#menu .main-menu{
+    float: left;
+    padding: 20px 13px 25px 13px;
+    height: 100%;
+    font-size: 25px;
+    list-style: none;
+    color: #E4DACC;
+    border-right: 3px solid #754B1D;
+    border-left: 1px solid #B9AE9E;
+}
+.main-menu:hover{
+    background: #7c4e23;
+}
+
+/*li{
+
+}
+li:before {
+    content: "¶"; !* Добавляем желаемый символ перед элементом списка *!
+}*/
 
 
 #body{
@@ -17,12 +62,11 @@ h2{
     text-align: center;
 }
 
-
 #header{
-    color: rgb(61, 99, 210);
+    color: rgb(230, 102, 8);
     text-shadow: 4px -2px 2px #4A4949;
     font-size: 5em;
-    border-bottom: 3px solid rgba(34, 42, 255, 0.4);
+    border-bottom: 3px solid rgb(117, 75, 29);
 
 }
 #content{
@@ -40,7 +84,7 @@ li{
     color: #f00;
     font-size: 250%;
     font-weight: bold;
-    margin: 0 0 0 390px;
+    margin: 0 0 0 420px;
     text-align: right;
 }
 .time {
