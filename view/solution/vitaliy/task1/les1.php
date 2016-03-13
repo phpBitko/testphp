@@ -1,5 +1,4 @@
-﻿<?php
-//$hostName="localhost";
+﻿//$hostName="localhost";
 //$databaseName="lesson1_base";
 //$userName="root";
 //$pswd="";
@@ -14,4 +13,4 @@ $pasVal = $_POST['valPassword'];
 //$query="INSERT INTO `users` (name, password) VALUES($nameVal, $pasVal)";
 //mysql_query($query);
 //mysql_close($dbh);
-?>
+
