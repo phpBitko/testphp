@@ -70,11 +70,19 @@ li:before {
     border-bottom: 3px solid rgb(117, 75, 29);
 
 }
-#content{
+.content{
     font-size: 1.2em;
     color: #737679;
     text-align: left;
     margin: 20px;
+    padding-bottom: 20px;
+}
+
+.content a {
+    text-decoration:  underline ;
+}
+.content a:hover{
+    color: #2A547D;
 }
 
 li{

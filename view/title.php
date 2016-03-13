@@ -13,7 +13,9 @@
         <li class = "main-menu">
             <a href="index.php?page=tasks">Тестові завдання</a></li>
         <li class = "main-menu">Статистика виконання</li>
-        <li class = "main-menu">Тут виконувати завдання)</li>
+        <li class = "main-menu">
+            <a href="index.php?page=solution">Тут виконувати завдання)</a>
+        </li>
         <li class = "main-menu">Корисні посилання</li>
     </ul>
 

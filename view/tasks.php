@@ -1,4 +1,4 @@
-	<div id="content">
+	<div class="content">
 		<p>
 		<h4>Тестове завдання №1</h4>
 
